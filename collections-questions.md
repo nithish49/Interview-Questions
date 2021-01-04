@@ -2163,6 +2163,7 @@ new instance of Employee will be inserted to HashMap
 Map is a key/value pair whereas Collection is a collection of a group of objects stored in a structured manner and has a specified access mechanism. The reason why Map doesn't extend Collections interface is that add(E e); doesn't cater the key value pair like Map's put(K, V)
 
 ### Q. What is CompareAndSwap approach?
+   Compare and swap is a technique used when designing concurrent algorithms. Basically, compare and swap compares an expected value to the concrete value of a variable, and if the concrete value of the variable is equals to the expected value, swaps the value of the variable for a new variable.
 
 <div align="right">
     <b><a href="#">↥ back to top</a></b>
