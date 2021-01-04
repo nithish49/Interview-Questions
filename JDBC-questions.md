@@ -666,7 +666,11 @@ public class Main {
     <b><a href="#">↥ back to top</a></b>
 </div>
 
-#### Q. What are the differences between execute, executeQuery, and executeUpdate?
+## Q. What are the differences between execute, executeQuery, and executeUpdate?
+   * **execute()**:This method is used to execute SQL DDL statements, it returns a boolean value specifying weather the ResultSet object can be retrieved.
+   * **execute Update()**: This method is used to execute statements such as insert, update, delete. It returns an integer value representing the number of rows affected.
+   * **execute Query()**: This method is used to execute statements that returns tabular data (example select). It returns an object of the class ResultSet.
+
 #### Q. Which interface is responsible for transaction management in JDBC?
 #### Q. How can we maintain the integrity of a database by using JDBC?
 #### Q. What is the major difference between java.util.Date and java.sql.Date data type?
