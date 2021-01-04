@@ -2159,7 +2159,9 @@ Six
 ## Q. If you store Employee object as key say: Employee emp = new Employee(“name1”,20); store it in a HashMap as key, now if we add a new parameter emp.setMarriedStatus(true) and try to override it what will happen? 
 new instance of Employee will be inserted to HashMap 
 
-### Q. Why Map interface does not extend Collection interface?
+## Q. Why Map interface does not extend Collection interface?
+Map is a key/value pair whereas Collection is a collection of a group of objects stored in a structured manner and has a specified access mechanism. The reason why Map doesn't extend Collections interface is that add(E e); doesn't cater the key value pair like Map's put(K, V)
+
 ### Q. What is CompareAndSwap approach?
 
 <div align="right">
