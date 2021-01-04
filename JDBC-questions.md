@@ -671,8 +671,15 @@ public class Main {
    * **execute Update()**: This method is used to execute statements such as insert, update, delete. It returns an integer value representing the number of rows affected.
    * **execute Query()**: This method is used to execute statements that returns tabular data (example select). It returns an object of the class ResultSet.
 
-#### Q. Which interface is responsible for transaction management in JDBC?
-#### Q. How can we maintain the integrity of a database by using JDBC?
+## Q. Which interface is responsible for transaction management in JDBC?
+    In JDBC, Connection interface provides methods to manage transaction.
+
+## Q. How can we maintain the integrity of a database by using JDBC?
+  * The driver doesn't "manage" or "ensure" data integrity at all.
+  * That's completely in the responsibility of the database server.
+  * It if was the driver, then all the constraints could easily be bypassed by using a different technology to connect to the database.
+  * The driver is a client side technology and it's impossible to ensure data integrity from only the client side.
+	
 #### Q. What is the major difference between java.util.Date and java.sql.Date data type?
 #### Q. How do you handle error condition while writing stored procedure or accessing stored procedure from java?
 #### Q. How do you iterate ResultSet in the reverse order?
